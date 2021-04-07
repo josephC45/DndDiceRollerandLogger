@@ -26,6 +26,6 @@ void::driverc::DiceRoll::rollDice() const {
 	else {
 		std::cout << "You rolled " << number_rolled << std::endl;
 	}
-	gl.writeToFile(die_number, number_of_die, number_rolled, "C:\\Users\\joeyc\\Desktop\\dnd_log_file.txt");
+	gl.writeToFile(die_number, number_of_die, number_rolled, /*Your dnd file*/);
 }
 
